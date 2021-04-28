@@ -1,4 +1,4 @@
-# squid-open-prxoy-docker
+# squid-open-proxy-docker
 Docker-compose for squid open proxy
 
 
