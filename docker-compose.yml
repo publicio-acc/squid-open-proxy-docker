@@ -1,0 +1,9 @@
+Squid:
+  image: sameersbn/squid:3.5.27-2
+  container_name: squid_proxy
+  ports:
+    - "3128:3128"
+  volumes:
+    - /srv/docker/squid/cache:/var/spool/squid
+    - ./config/squid.conf:/etc/squid/squid.conf
+  restart: always
